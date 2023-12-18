@@ -1,12 +1,22 @@
 print("Hello to the BMI-Calculator!")
-height = input("What is your height?\n")
-weight = input("What is your weight?\n")
+height = float(input("What is your height?\n"))
+weight = int(input("What is your weight?\n"))
 
-weight = int(weight)
-height = float(height)
+bmi = weight / (height*height)
 
-bmi = weight / height**2
+bmi = round(bmi,2)
 
-bmi_as_int = int(bmi)
+if bmi < 18.5:
+    print("Your BMI is lower then 18.5 you are underweight")
+elif bmi < 25:
+    print("Your BMI is between 18.5 and 25. You have an normal weight!")
+elif bmi < 30:
+    print("Your BMI is between the range of 25 and 30 you have a little overweight")
+elif bmi < 35:
+    print("Your BMI is between 30 and 35, you have some weight on you!")
+else:
+    print("You are fat as fuck!")
 
-print(f"your BMI = {bmi_as_int}")
+
+print(f"your BMI = {bmi}")
+
