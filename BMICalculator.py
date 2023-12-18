@@ -2,9 +2,9 @@ print("Hello to the BMI-Calculator!")
 height = float(input("What is your height?\n"))
 weight = int(input("What is your weight?\n"))
 
-bmi = weight / (height*height)
+bmi = weight / (height * height)
 
-bmi = round(bmi,2)
+bmi = round(bmi, 2)
 
 if bmi < 18.5:
     print("Your BMI is lower then 18.5 you are underweight")
@@ -19,4 +19,3 @@ else:
 
 
 print(f"your BMI = {bmi}")
-
