@@ -7,3 +7,9 @@
 
 # random_float = random.random() * 5
 # print(random_float)
+
+# lists = ["hello", "world", "how", "are", "you"]
+# print(lists)
+# lists.append("apple")
+# print(lists)
+# print(lists[4])
