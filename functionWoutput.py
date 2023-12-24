@@ -11,6 +11,6 @@ name = format_name("jordy","jordy")
 #   -childeren.py
 #       -silbings.py
 #           -granny.py ?
-# Guess here come's the practicality of OOP in place.
+# Guess here come's the practicality of OOP.
 
 print(name)
