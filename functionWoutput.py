@@ -12,5 +12,9 @@ name = format_name("jordy","jordy")
 #       -silbings.py
 #           -granny.py ?
 # Guess here come's the practicality of OOP.
+#--  Think about it like the stucture of the brain with its neurons and glia-neuros and the parts of the brain the prefontal for rational, 
+#--  hyppocampus for read an write to the cerbrum to update all the functions.
+#-- Dont think aabout it to mutch, or you'll start to explore the function of emotions them self? (management problems lol)
+# -- ect, ect,
 
 print(name)
