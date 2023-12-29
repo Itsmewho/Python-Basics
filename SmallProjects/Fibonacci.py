@@ -6,9 +6,10 @@ clear = lambda: os.system("cls")
 print("Welcome to the fibonacci checker!")
 
 game = False
+input_user = False
 
 
-first_numbers = 20
+first_numbers = 10
 fib_num1 = 0
 fib_num2 = 1
 next_number = fib_num2
@@ -23,25 +24,21 @@ while count <= first_numbers:
 
 print("\nThat's some shit!")
 
-# Thanks geekforgeeks!
 
-
-def if_is_square(x):
+def isSquare(x):
     sqr = int(math.sqrt(x))
-    return sqr * sqr == x
-
+    return sqr*sqr == x
 
 def fibonacci(n):
-    return if_is_square(5 * n * n + 4) or if_is_square(5 * n * n - 4)
-
+    return isSquare(5*n*n + 4) or isSquare(5*n*n - 4)
 
 while game != True:
     number = int(input("Now give me a number to check if it is a fibonacci: "))
     clear()
-    if number == (fibonacci == True):
-        print(f"{number} Is a Fibonacci Number")
+    if (fibonacci(number) == True):
+        print(f"{number}, is a Fibonacci Number")
     else:
-        print(f"{number} is not a Fibonacci Number")
+        print(f"{number}, is a not Fibonacci Number")
 
     while True:
         print("Do you want to check again?\n")
