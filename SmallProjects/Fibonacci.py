@@ -1,7 +1,6 @@
-
-
 import math
 import os
+
 clear = lambda: os.system("cls")
 
 print("Welcome to the fibonacci checker!")
@@ -24,23 +23,26 @@ while count <= first_numbers:
 
 print("\nThat's some shit!")
 
-#Thanks geekforgeeks!
+# Thanks geekforgeeks!
+
 
 def if_is_square(x):
     sqr = int(math.sqrt(x))
     return sqr * sqr == x
 
+
 def fibonacci(n):
-    return if_is_square(5*n*n + 4) or if_is_square(5*n*n -4)
+    return if_is_square(5 * n * n + 4) or if_is_square(5 * n * n - 4)
 
 
-while game !=True:
+while game != True:
     number = int(input("Now give me a number to check if it is a fibonacci: "))
     clear()
     if number == (fibonacci == True):
         print(f"{number} Is a Fibonacci Number")
     else:
         print(f"{number} is not a Fibonacci Number")
+
     while True:
         print("Do you want to check again?\n")
         response = input("Type in: yes or no: ")
