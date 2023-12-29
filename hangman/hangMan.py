@@ -1,6 +1,6 @@
 import random
 import sys
-sys.path.append("hangman")
+sys.path.append("Hangman")
 
 from words import word_list 
 from art import stages, logo

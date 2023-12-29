@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("ceasar")
+sys.path.append("Ceasar")
 from alphabet import alphabet_list
 
 

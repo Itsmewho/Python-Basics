@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("auction")
+sys.path.append("Auction")
 
 import os
 

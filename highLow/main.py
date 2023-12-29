@@ -1,7 +1,7 @@
 import random
 import sys
 
-sys.path.append("highLow")
+sys.path.append("HighLow")
 import os
 
 clear = lambda: os.system("cls")

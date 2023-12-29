@@ -4,7 +4,7 @@ clear = lambda: os.system("cls")
 
 import sys
 
-sys.path.append("calculator")
+sys.path.append("Calculator")
 from art import logo
 
 
