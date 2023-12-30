@@ -8,7 +8,6 @@ print("Welcome to the fibonacci checker!")
 game = False
 input_user = False
 
-
 first_numbers = 10
 fib_num1 = 0
 fib_num2 = 1

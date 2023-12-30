@@ -3,7 +3,6 @@ import os
 clear = lambda: os.system("cls")
 
 game = False
-pronoun = ""
 
 print("Hello welcome to some sort of plotlib.")
 
