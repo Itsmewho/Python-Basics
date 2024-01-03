@@ -5,10 +5,6 @@ from data import question_data
 from question_model import Question
 from quiz_brain import QuizBrain
 
-import os
-
-clear = lambda: os.system("cls")
-
 
 question_bank = []
 for question in question_data:
@@ -19,4 +15,6 @@ for question in question_data:
 
 
 quiz = QuizBrain(question_bank)
-quiz.next_question()
+
+while quiz.still_has_questions():
+    quiz.next_question()
